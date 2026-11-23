@@ -1,0 +1,13 @@
+[package]
+name = "singleflight-guru"
+version = "0.1.0"
+edition = "2024"
+description = "Go singleflight-style call deduplication for Rust - concurrent calls with the same key share one execution and its result, zero dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/singleflight-guru"
+homepage = "https://github.com/StarcevAlexander/singleflight-guru"
+readme = "README.md"
+keywords = ["singleflight", "dedup", "concurrency", "cache", "single-call"]
+categories = ["concurrency", "caching"]
+
+[dependencies]
